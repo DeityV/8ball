@@ -31,7 +31,13 @@ async def on_message(message):
         ###
         "Don't count on it",
         "Outlook not so good.",
-        "Very doubtful."
+        "Very doubtful.",
+        ### Fhlipz contribution message
+        "Yes! No! Maybe?",
+        "It depends.",
+        "Should you " + message + " or should you not?"
+        "Meep!",
+
     )
 
     if str(message.channel) in channels
