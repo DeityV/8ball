@@ -35,9 +35,12 @@ async def on_message(message):
         ### Fhlipz contribution message
         "Yes! No! Maybe?",
         "It depends.",
-        "Should you " + message + " or should you not?"
+        "Should you " + message + " or should you not?",
         "Meep!",
-
+        "Haha thats a good joke",
+        ":regional_indicator_y: :regional_indicator_e: :regional_indicator_s:",
+        ":regional_indicator_n: :regional_indicator_o:",
+        "Ummm.......",
     )
 
     if str(message.channel) in channels
